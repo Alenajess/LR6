@@ -4,7 +4,6 @@ enum MarkType { Zachet, Exam };
 struct Subject
 {
 	char name[80];
-//	char *name = (char*)malloc(80 * sizeof(char));
 	enum MarkType markType;
 	union {
 		_Bool zachet;
